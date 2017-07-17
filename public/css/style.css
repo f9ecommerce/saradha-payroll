@@ -1,0 +1,31 @@
+.borderless>tbody>tr>td, .borderless>tbody>tr>th {
+    border: none;
+}
+
+.sbill_ind{
+	border-bottom: 1px solid;
+}
+
+.report_heading{
+	border-bottom: 1px solid;
+}
+
+.salary_slip_ind {
+    border-bottom: 1px solid;
+}
+
+.delete_salaries{
+	margin-left: 1%;
+}
+
+@media print {
+
+  .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+  	border: 1px solid #000 !important;
+  }
+
+  .table-bordered {
+      border: 1px solid #000 !important;
+  }
+
+}
